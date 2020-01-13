@@ -1,19 +1,19 @@
-var chai = require('chai');
-var assert = chai.assert;
+// var chai = require('chai');
+// var assert = chai.assert;
 
-suite('Unit Tests Exercise 5 - Equality', function(){
-   // 5 - .equal() and .notEqual() 
-   // .equal() compares objects using '=='
-   test('is 12 equal to "12"?', function(){
-    assert.equal( 12, '12', 'numbers are coerced into strings with ==');
-   });
-   test('is 6*"2" equal to "12"?',function(){
-    assert.equal( 6 * '2', '12', 'no more hints...');
-   });
-   test('is 6+"2" equal to "12"?',function(){
-    assert.notEqual( 6 + '2', '12', 'type your error message if you want' );
-   });
-});
+// suite('Unit Tests Exercise 5 - Equality', function(){
+//    // 5 - .equal() and .notEqual() 
+//    // .equal() compares objects using '=='
+//    test('is 12 equal to "12"?', function(){
+//     assert.equal( 12, '12', 'numbers are coerced into strings with ==');
+//    });
+//    test('is 6*"2" equal to "12"?',function(){
+//     assert.equal( 6 * '2', '12', 'no more hints...');
+//    });
+//    test('is 6+"2" equal to "12"?',function(){
+//     assert.notEqual( 6 + '2', '12', 'type your error message if you want' );
+//    });
+// });
 
 // type coersion in javascript means that if you try to add together or compare
 // different data types, it will generally let you, but this will not necessarily
