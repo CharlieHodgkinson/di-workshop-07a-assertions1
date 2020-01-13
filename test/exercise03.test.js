@@ -1,19 +1,19 @@
-var chai = require('chai');
-var assert = chai.assert;
+// var chai = require('chai');
+// var assert = chai.assert;
 
-suite('Unit Tests Exercise 3 - Truthyness', function(){
-      // 3 - Use assert.isOk() or assert.isNotOk() to make the tests pass.
-      // .isOk(truthy) and .isNotOk(falsey) will pass
-      test('Is null truthy?', function(){
-        assert.isNotOk( null, 'null is falsey');
-      });
-      test('Is a string truthy?',function(){
-        assert.isOk( "I'm truthy", 'a string is truthy');
-      });
-      test('Is true truthy?',function(){
-        assert.isOk( true, 'true is truthy' );
-      });
-    });
+// suite('Unit Tests Exercise 3 - Truthyness', function(){
+//       // 3 - Use assert.isOk() or assert.isNotOk() to make the tests pass.
+//       // .isOk(truthy) and .isNotOk(falsey) will pass
+//       test('Is null truthy?', function(){
+//         assert.isNotOk( null, 'null is falsey');
+//       });
+//       test('Is a string truthy?',function(){
+//         assert.isOk( "I'm truthy", 'a string is truthy');
+//       });
+//       test('Is true truthy?',function(){
+//         assert.isOk( true, 'true is truthy' );
+//       });
+//     });
 
   // null, undefined, "", 0, false and NaN (not a number)
   // are collectively referred to as 'falsy'. This means if 
